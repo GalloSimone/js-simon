@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--LINK-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container py-5">
+        <div class="card text-bg-primary text-center py-5">
+            <form>
+            <form id="form">
+                <h1 id="title" class="mb-4">Gioco di memorizzazione di numeri</h1>
+                <h2 id="time">20</h2>
+                <div id="instructions" class="h6 mb-3">ricorda quanti più numeri possibili e inseriscili negli spazi vuoti(l'ordine non è importante)</div>
+
+                <!-- - INPUT ROW -->
+                <div class="row justify-content-center">
+                    <div class="col-2">
+                        <input class="form-control text-center" type="number" min="1" max="100" id="number one" readonly value="65" />
+                    </div>
+                    <div class="col-2">
+                        <input class="form-control text-center" type="number" min="1" max="100" id="number two" readonly value="34" />
+                    </div>
+                    <div class="col-2">
+                        <input class="form-control text-center" type="number" min="1" max="100" id="number trhee" readonly value="23" />
+                    </div>
+                    <div class="col-2">
+                        <input class="form-control text-center" type="number" min="1" max="100" id="number four" readonly value="87"  />
+                    </div>
+                    <div class="col-2">
+                        <input class="form-control text-center" type="number" min="1" max="100" id="number five" readonly value="9" />
+                    </div>
+                </div>
+
+                <!-- - BUTTON -->
+                <div class="row justify-content-center mt-5">
+                    <button id="submit-button" type="button" class="btn btn-info w-15">Avvia gioco</button>
+                    <span id="result" class="h5 mt-4 d-none">Hai fatto 5 punti!</span>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--JS-->
+    <script src="./js/main.js"></script>
+</body>
+</html>
